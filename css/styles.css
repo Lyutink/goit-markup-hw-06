@@ -461,10 +461,11 @@ img {
 
 .footer-container {
   display: flex;
+  justify-content: space-between;
 }
-.footer-left {
+/*.footer-left {
   margin-right: 70px;
-}
+}*/
 .footer-right {
   margin-top: 12px;
 }
@@ -507,6 +508,31 @@ img {
 .footer-social-link:focus {
   background-color: var(--accent-color);
 }
+
+/*=====newsletter=====*/
+.footer-newsletter {
+  margin-top: 12px;
+}
+.newsletter-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+
+  padding-bottom: 20px;
+}
+.newsletter-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+}
+.newsletter-btn {
+  width: 200px;
+  height: 50px;
+}
+/*===END===newsletter====*/
 /*==========END=== Footer======*/
 
 /*=======Backdrop============*/
