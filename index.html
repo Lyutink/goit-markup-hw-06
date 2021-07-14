@@ -474,15 +474,17 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> 
         <div class="footer-newsletter">
           <p class="newsletter-title">Подпишитесь на рассылку</p>
-          <label for="">
-            <input class="newsletter-input" type="email" name="user-name">
-          </label>
-          <button type="submit" class="newsletter-btn">Подписаться
-
-          </button>
+          <form class="newsletter-form" action="">
+            <input class="newsletter-input" type="email" name="user-name" placeholder="E-mail">
+            <button type="submit" class="newsletter-btn">Подписаться
+              <svg class="newsletter-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>   
+          </form>
         </div>
       </div>
     </footer>
